@@ -140,7 +140,7 @@ const GFXglyph Font7x5AurebeshGlyphs[] PROGMEM = {
     {320, 3, 1, 4, 0, -3}  // '~'
 };
 
-const GFXFont Font7x5Aurebesh PROGMEM = {
+const GFXfont Font7x5Aurebesh PROGMEM = {
     (uint8_t*)  Font7x5AurebeshBitmaps,
     (GFXGlyph*) Font7x5AurebeshGlyphs,
     0x20,
