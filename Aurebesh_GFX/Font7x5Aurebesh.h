@@ -142,7 +142,7 @@ const GFXglyph Font7x5AurebeshGlyphs[] PROGMEM = {
 
 const GFXfont Font7x5Aurebesh PROGMEM = {
     (uint8_t*)  Font7x5AurebeshBitmaps,
-    (GFXGlyph*) Font7x5AurebeshGlyphs,
+    (GFXglyph*) Font7x5AurebeshGlyphs,
     0x20,
     0x7E,
     5
