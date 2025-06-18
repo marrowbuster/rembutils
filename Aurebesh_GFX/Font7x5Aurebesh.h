@@ -1,3 +1,6 @@
+#pragma once
+#include <Adafruit_GFX.h>
+
 const uint8_t Font7x5AurebeshBitmaps[] PROGMEM = {
     0x61, 0x80, 0xAC, 0x7C, 0xA4, 0x94, 0xF8,
     0xA7, 0xEA, 0x11, 0x00, 0xD6, 0x88, 0xB5,
@@ -135,4 +138,12 @@ const GFXglyph Font7x5AurebeshGlyphs[] PROGMEM = {
     {317, 1, 5, 2, 0, -4}, // '|'
     {318, 2, 5, 3, 0, -4}, // '}'
     {320, 3, 1, 4, 0, -3}  // '~'
+};
+
+const GFXFont Font7x5Aurebesh PROGMEM = {
+    (uint8_t*)  Font7x5AurebeshBitmaps,
+    (GFXGlyph*) Font7x5AurebeshGlyphs,
+    0x20,
+    0x7E,
+    5
 };
