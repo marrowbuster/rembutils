@@ -31,3 +31,7 @@ bin/
 ### project ###
 .idea/
 *.iml
+
+### faulty SHT41 sensor ###
+SHT41-milkv-duos/
+milkv-duos-sht41/
